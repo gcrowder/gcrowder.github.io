@@ -14,6 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gcrowder.github.io" # the base hostname & protocol for your site
 twitter_username: tievape
 github_username:  gcrowder
+linkedin_username: gregory-crowder-96b72612
 
 # Build settings
 markdown: kramdown
