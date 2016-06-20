@@ -3,21 +3,22 @@ layout: default
 ---
 
 <div class="home">
+    <h1 class="page-heading"><a href="http://www.bringingbuzzwordshome.com">Bringing Buzzwords Home</a></h1>
+    <p>
+        <img src="{{site url}}/assets/screenshots/iowa_equipment_example.png" alt="Screenshot of Bringing Buzzwords Home line graph" /> <img src="{{site url}}/assets/screenshots/visualize_js_example.png" alt="Screenshot of Bringing Buzzwords Home line graph function definition" />
+    </p>
+    <p>
+        Bringing Buzzwords Home is a three person data visualization project created by myself, <a href="https://github.com/JonathanKross">Jonathan Kross</a>, and <a href="https://github.com/conleydg">David Conley</a> while we were students at <a href="https://www.theironyard.com/locations/durham.html">The Iron Yard</a>.
+        We extracted, transformed, and loaded (ETL) data from disparate sources into relational database, fed visualizations via dynamically created JSON, and created NVD3 visualizations from that JSON.
 
-  <h1 class="page-heading">Posts</h1>
+    </p>
+    <p>
+        Tools used include: Git, Django, Django Rest Framework, Postgresql, D3, NVD3 and deployment via Heroku
+    </p>
+    <h1 class="page-heading"><a href="https://github.com/gcrowder/programming-language-classifier">Computer Programming Language Predictor</a></h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <h1 class="page-heading"><a href="https://github.com/gcrowder/atus-analysis">Analysis of the American Time Use Survey</a></h1>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <h1 class="page-heading"><a href="https://github.com/gcrowder/monty-hall">Monte Carlo Simulation of the Monty Hall Problem</a></h1>
 
 </div>
