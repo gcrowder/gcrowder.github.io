@@ -44,4 +44,4 @@ if __name__ == '__main__':
 You can see that it predicts correctly:
 ![Sample.py output]({{ site.url }}/assets/screenshots/sample_output.png)
 
-Clone the repo and try it yourself. It's kinda fun.
+Clone the [repo]((https://github.com/gcrowder/programming-language-classifier)) and try it yourself. It's kinda fun.
