@@ -18,3 +18,5 @@ linkedin_username: gregory-crowder-96b72612
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-minimal
